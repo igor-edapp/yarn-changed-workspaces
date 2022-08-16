@@ -1,6 +1,6 @@
 {
-  "name": "yarn-changed-workspaces",
-  "version": "2.0.10",
+  "name": "@edapp/yarn-changed-workspaces",
+  "version": "2.0.12",
   "main": "./src/index.js",
   "bin": "./bin/cli.js",
   "description": "An utility to show changed workspaces and their dependants",

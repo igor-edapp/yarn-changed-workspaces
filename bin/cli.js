@@ -18,8 +18,13 @@ const options = yargs
     type: "string",
     normalize: true,
   })
+  .option("format", {
+    description: "Option of how the result will be output",
+    choices: ["json", "string"],
+    default: "json",
+  })
   .option("fromBranch", {
-    description: "Option to `git diff` from a diff branch than current one."
+    description: "Option to `git diff` from a diff branch than current one.",
   })
   .option("branch", {
     alias: "b",
